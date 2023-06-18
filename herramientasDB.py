@@ -34,7 +34,7 @@ def crearColeccionJugadores():
 '''
 def recuperarColeccionJugadores():
 
-    client = MongoClient(url)
+    client = MongoClient(MONGO_URL)
 
     #creamos la base de datos o accedemos  
     ligaDB = client[DATABASE]
