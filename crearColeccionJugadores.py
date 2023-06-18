@@ -1,0 +1,3 @@
+from herramientasDB import * 
+
+crearColeccionJugadores()
