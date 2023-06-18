@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 from datosJugadores import datosJugadores
-from varaiblesEntorno import MONGO_URL
+from variablesEntorno import MONGO_URL
 from variablesEntorno import DATABASE
 from funcionesAuxiliares import calcularMediaJugador
 import json
