@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 from datosJugadores import datosJugadores
 from varaiblesEntorno import MONGO_URL
-from varaiblesEntorno import DATABASE
+from variablesEntorno import DATABASE
 from funcionesAuxiliares import calcularMediaJugador
 import json
 
@@ -42,7 +42,7 @@ def recuperarColeccionJugadores():
     listaColecciones  = ligaDB.list_collection_names()
     if "jugadores" not in listaColecciones : 
         crearColeccionJugadores()
-        
+
     #creamos o accedemos a  la coleccion de jugadores
     jugadoresCol = ligaDB["jugadores"]
 
